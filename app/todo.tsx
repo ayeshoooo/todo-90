@@ -1,6 +1,6 @@
 "use client"
-import { background } from '@chakra-ui/react';
 import React,{useState} from 'react'
+import {background} from '@chakra-ui/react'
 
 export default function Todo() {
     const [todo,setTodo] =useState('')
